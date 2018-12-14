@@ -2,7 +2,7 @@
   "name": "@sudoo/tslint-config",
   "version": "1.0.0",
   "description": ":circus_tent: tslint config",
-  "main": "tslint.js",
+  "main": "tslint.json",
   "scripts": {
     "test": "mocha"
   },
