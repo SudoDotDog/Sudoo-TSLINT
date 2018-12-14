@@ -1,0 +1,23 @@
+{
+  "name": "@sudoo/tslint-config",
+  "version": "1.0.0",
+  "description": ":circus_tent: tslint config",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-TSLINT.git"
+  },
+  "keywords": [
+    "tslint",
+    "sudoo"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-TSLINT/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-TSLINT#readme"
+}
