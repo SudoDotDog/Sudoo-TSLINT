@@ -1,11 +1,12 @@
 {
     "extends": "tslint:recommended",
     "rules": {
+        "align": false,
         "curly": false,
         "interface-over-type-literal": false,
+        "jsdoc-format": false,
         "max-line-length": false,
         "new-parens": true,
-        "jsdoc-format": false,
         "no-arg": true,
         "no-bitwise": true,
         "no-conditional-assignment": true,

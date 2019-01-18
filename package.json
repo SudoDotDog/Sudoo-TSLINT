@@ -1,6 +1,6 @@
 {
   "name": "@sudoo/tslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": ":circus_tent: tslint config",
   "main": "tslint.json",
   "scripts": {
