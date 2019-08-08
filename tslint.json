@@ -2,7 +2,7 @@
     "extends": "tslint:recommended",
     "rules": {
         "align": false,
-        "await-promise": true,
+        "await-promise": false,
         "class-name": true,
         "curly": true,
         "import-spacing": true,
