@@ -2,24 +2,94 @@
     "extends": "tslint:recommended",
     "rules": {
         "align": false,
-        "curly": false,
+        "await-promise": true,
+        "class-name": true,
+        "curly": true,
+        "import-spacing": true,
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
         "interface-over-type-literal": false,
+        "linebreak-style": [
+            true,
+            "CR/LF"
+        ],
         "jsdoc-format": false,
         "max-line-length": false,
+        "max-classes-per-file": [
+            true,
+            1
+        ],
+        "member-access": true,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-static-field",
+                    "public-static-method",
+                    "protected-static-field",
+                    "protected-static-method",
+                    "private-static-field",
+                    "private-static-method",
+                    "public-instance-field",
+                    "protected-instance-field",
+                    "private-instance-field",
+                    "public-constructor",
+                    "protected-constructor",
+                    "private-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
         "new-parens": true,
         "no-arg": true,
         "no-bitwise": true,
         "no-conditional-assignment": true,
         "no-consecutive-blank-lines": false,
         "no-console": false,
-        "no-eval": false,
+        "no-debugger": true,
+        "no-default-export": true,
+        "no-duplicate-imports": true,
+        "no-duplicate-super": true,
+        "no-empty": true,
+        "no-empty-interface": true,
+        "no-eval": true,
+        "no-for-in-array": true,
+        "no-invalid-this": true,
+        "no-null-keyword": false,
+        "no-parameter-reassignment": true,
+        "no-string-throw": true,
+        "no-trailing-whitespace": [
+            true,
+            "ignore-comments",
+            "ignore-jsdoc"
+        ],
+        "no-unsafe-finally": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
         "no-var-requires": false,
         "object-literal-key-quotes": false,
         "object-literal-sort-keys": false,
         "prefer-const": true,
+        "prefer-for-of": true,
         "quotemark": false,
+        "radix": true,
+        "restrict-plus-operands": true,
         "space-before-function-paren": false,
-        "variable-name": false
+        "triple-equals": true,
+        "variable-name": {
+            "options": [
+                "check-format",
+                "allow-leading-underscore",
+                "allow-trailing-underscore",
+                "allow-pascal-case",
+                "ban-keywords",
+                "require-const-for-all-caps"
+            ]
+        }
     },
     "jsRules": {
         "max-line-length": {
