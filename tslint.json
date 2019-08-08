@@ -10,11 +10,13 @@
             true,
             "always-prefix"
         ],
-        "interface-over-type-literal": false,
-        "linebreak-style": [
+        "indent": [
             true,
-            "CR/LF"
+            "spaces",
+            4
         ],
+        "interface-over-type-literal": false,
+        "linebreak-style": false,
         "jsdoc-format": false,
         "max-line-length": false,
         "max-classes-per-file": [
