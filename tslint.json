@@ -3,6 +3,10 @@
     "rules": {
         "align": false,
         "adjacent-overload-signatures": false,
+        "array-type": [
+            true,
+            "array-simple"
+        ],
         "await-promise": false,
         "class-name": true,
         "curly": true,
@@ -58,6 +62,7 @@
         "no-default-export": true,
         "no-duplicate-imports": true,
         "no-duplicate-super": true,
+        "no-duplicate-switch-case": true,
         "no-empty": true,
         "no-empty-interface": true,
         "no-eval": true,
@@ -83,6 +88,7 @@
         "no-null-keyword": false,
         "no-parameter-reassignment": true,
         "no-reference": true,
+        "no-require-imports": true,
         "no-string-throw": true,
         "no-trailing-whitespace": [
             true,
@@ -92,6 +98,7 @@
         "no-unsafe-finally": true,
         "no-var-keyword": true,
         "no-var-requires": false,
+        "no-switch-case-fall-through": true,
         "object-literal-key-quotes": false,
         "object-literal-sort-keys": false,
         "prefer-const": true,
@@ -120,7 +127,9 @@
                 "ban-keywords",
                 "require-const-for-all-caps"
             ]
-        }
+        },
+        "typeof-compare": true,
+        "use-isnan": true
     },
     "jsRules": {
         "max-line-length": {

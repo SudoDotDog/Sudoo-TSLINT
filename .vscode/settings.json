@@ -5,6 +5,7 @@
         "WMXPY",
         "deserialize",
         "ifeq",
+        "isnan",
         "linebreak",
         "paren",
         "parens",
@@ -12,6 +13,7 @@
         "setx",
         "splited",
         "sudoo",
-        "tshook"
+        "tshook",
+        "typeof"
     ]
 }
