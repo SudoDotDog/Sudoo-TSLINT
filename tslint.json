@@ -73,6 +73,7 @@
             true,
             {
                 "allowed-numbers": [
+                    -1,
                     0,
                     1,
                     2,
@@ -109,15 +110,6 @@
         "restrict-plus-operands": true,
         "space-before-function-paren": false,
         "triple-equals": true,
-        "typedef": [
-            true,
-            "call-signature",
-            "parameter",
-            "arrow-parameter",
-            "property-declaration",
-            "member-variable-declaration",
-            "variable-declaration"
-        ],
         "variable-name": {
             "options": [
                 "check-format",
